@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>CRISPY LIMEY ENGINE</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <div>
+      <div class="title">🍋‍🟩 CRISPY LIMEY ENGINE</div>
+      <div class="sub">Actual homework + campaign pace + RACE pressure + assignment shocks.</div>
+    </div>
+    <div class="pill">Today: <strong id="today">—</strong></div>
+  </header>
+
+  <div id="metrics" class="grid metrics"></div>
+
+  <div class="grid two" style="margin-top:12px">
+    <section class="card">
+      <h2 class="section">Analysis engine</h2>
+      <div class="grid three">
+        <div class="callout"><div class="small">Binding constraint</div><strong id="binding">—</strong></div>
+        <div class="callout"><div class="small">Extra work to make tomorrow ≤ 6/day</div><strong id="six">—</strong></div>
+        <div class="callout"><div class="small">iPad law</div><strong id="ipad">—</strong></div>
+      </div>
+      <div id="audit" class="small" style="margin-top:10px"></div>
+      <div class="small" style="margin-top:7px">Assignment shocks change urgency, not campaign remaining.</div>
+    </section>
+
+    <section class="card">
+      <h2 class="section">Log an event</h2>
+      <div class="controls">
+        <input id="problem" placeholder="NT5.21">
+        <input id="parts" placeholder="parts (optional)">
+        <input id="eventDate" type="date">
+      </div>
+      <div class="actions">
+        <button id="lime" class="btn primary">🍋‍🟩 LIME numbered problem</button>
+        <button id="part" class="btn">Part only</button>
+        <button id="skip" class="btn warn">⛷️ Skip unresolved</button>
+        <button id="perm" class="btn dark">Permanent skip</button>
+        <button class="btn danger" onclick="undoLast()">Undo last</button>
+      </div>
+      <div class="small" style="margin-top:7px">Part-only does not decrement the campaign. A numbered problem counts once when fully complete.</div>
+    </section>
+  </div>
+
+  <div id="chapters" class="grid three" style="margin-top:12px"></div>
+
+  <div class="grid two" style="margin-top:12px">
+    <section class="card">
+      <h2 class="section">Actual required-average trajectory</h2>
+      <svg id="chart" viewBox="0 0 760 310"></svg>
+      <div class="small">Post-work future required average. Aug 11 is the 190-remaining checkpoint.</div>
+    </section>
+
+    <section class="card">
+      <h2 class="section">Assignment shocks</h2>
+      <div id="shocks"></div>
+      <div class="small">Planned shocks are never auto-applied because the Areteem schedule is tentative. Confirm from the course page first.</div>
+    </section>
+  </div>
+
+  <div class="grid two" style="margin-top:12px">
+    <section class="card">
+      <h2 class="section">Daily log</h2>
+      <div id="log" class="log"></div>
+    </section>
+
+    <section class="card">
+      <h2 class="section">Rules</h2>
+      <div class="small" style="line-height:1.75">
+        <strong>x.1–x.10</strong> examples, not tracked.<br>
+        <strong>x.11–x.20</strong> quick response.<br>
+        <strong>x.21–x.30</strong> show-your-work.<br>
+        Safe target = ceil(remaining / working days including today).<br>
+        RACE pressure = assigned work / usable days to its deadline.<br>
+        Skipped ≠ removed unless permanent.<br>
+        Multipart completion counts once at numbered-problem level.<br>
+        iPad = RACE cleared + CRISP cleared; FUTURE does not automatically block it.
+      </div>
+      <div class="actions">
+        <button class="btn" onclick="exportState()">Export JSON</button>
+        <label class="btn">Import JSON<input hidden type="file" accept=".json" onchange="importStateFile(event)"></label>
+        <button class="btn danger" onclick="resetState()">Reset checkpoint</button>
+      </div>
+    </section>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

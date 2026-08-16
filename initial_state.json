@@ -1,0 +1,398 @@
+{
+  "version": 1,
+  "settings": {
+    "campaignDeadline": "2026-09-08",
+    "classTime": "16:30",
+    "timezone": "America/Los_Angeles"
+  },
+  "campaignCheckpoint": {
+    "date": "2026-08-11",
+    "remainingAfterDay": 190,
+    "note": "Hard checkpoint after A4 closed. Only Aug 12 onward changes this 190."
+  },
+  "chapters": [
+    {
+      "id": "A5",
+      "label": "A5*",
+      "category": "CRISP",
+      "assigned": true,
+      "due": null,
+      "topic": "Equations with fractions",
+      "completed": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "permanentSkipped": [],
+      "unresolvedSkipped": []
+    },
+    {
+      "id": "A6",
+      "label": "A6",
+      "category": "CRISP",
+      "assigned": true,
+      "due": null,
+      "topic": "Equations with absolute value",
+      "completed": [],
+      "permanentSkipped": [],
+      "unresolvedSkipped": []
+    },
+    {
+      "id": "A9",
+      "label": "A9",
+      "category": "CRISP",
+      "assigned": true,
+      "due": null,
+      "topic": "Algebra",
+      "completed": [],
+      "permanentSkipped": [],
+      "unresolvedSkipped": []
+    },
+    {
+      "id": "G9",
+      "label": "G9",
+      "category": "CRISP",
+      "assigned": true,
+      "due": null,
+      "topic": "Geometry",
+      "completed": [],
+      "permanentSkipped": [],
+      "unresolvedSkipped": []
+    },
+    {
+      "id": "NT5",
+      "label": "NT5",
+      "category": "RACE",
+      "assigned": true,
+      "due": "2026-08-18",
+      "dueTentative": true,
+      "topic": "Modular arithmetic / warm-ups",
+      "completed": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "permanentSkipped": [],
+      "unresolvedSkipped": []
+    },
+    {
+      "id": "NT6",
+      "label": "NT6",
+      "category": "FUTURE",
+      "assigned": false,
+      "due": "2026-08-25",
+      "dueTentative": true,
+      "plannedRelease": "2026-08-19",
+      "topic": "Theorems in modular arithmetic",
+      "completed": [],
+      "permanentSkipped": [],
+      "unresolvedSkipped": []
+    },
+    {
+      "id": "NT7",
+      "label": "NT7",
+      "category": "FUTURE",
+      "assigned": false,
+      "due": "2026-08-25",
+      "dueTentative": true,
+      "plannedRelease": "2026-08-19",
+      "topic": "Theorems in modular arithmetic",
+      "completed": [],
+      "permanentSkipped": [],
+      "unresolvedSkipped": []
+    },
+    {
+      "id": "NT8",
+      "label": "NT8",
+      "category": "FUTURE",
+      "assigned": false,
+      "due": "2026-09-01",
+      "dueTentative": true,
+      "plannedRelease": "2026-08-26",
+      "topic": "Diophantine equations / floor function",
+      "completed": [],
+      "permanentSkipped": [],
+      "unresolvedSkipped": []
+    },
+    {
+      "id": "NT9",
+      "label": "NT9",
+      "category": "FUTURE",
+      "assigned": false,
+      "due": "2026-09-01",
+      "dueTentative": true,
+      "plannedRelease": "2026-08-26",
+      "topic": "Diophantine equations / floor function",
+      "completed": [],
+      "permanentSkipped": [],
+      "unresolvedSkipped": []
+    }
+  ],
+  "dailyLog": [
+    {
+      "date": "2026-08-11",
+      "events": [
+        {
+          "type": "done",
+          "problem": "A4.24",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "A4.25",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "A4.26",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "A4.27",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "A4.28",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "A4.29",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "A4.30",
+          "counted": true
+        }
+      ],
+      "note": "These 7 closed A4 before the 190 checkpoint."
+    },
+    {
+      "date": "2026-08-12",
+      "events": [
+        {
+          "type": "done",
+          "problem": "A5.21",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "A5.22",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "A5.23",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT4.11",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT4.12",
+          "counted": true
+        }
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "events": [
+        {
+          "type": "done",
+          "problem": "NT4.13",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT4.14",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT4.15",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT4.16",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT4.17",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT4.18",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT4.19",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT4.20",
+          "counted": true
+        }
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "events": [
+        {
+          "type": "done",
+          "problem": "NT4.21",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT4.22",
+          "parts": "a,b,c,d",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT4.23",
+          "parts": "a,b,c",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT4.24",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT4.25",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT4.26",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT4.27",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT4.28",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT4.29",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT4.30",
+          "counted": true
+        }
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "events": [
+        {
+          "type": "done",
+          "problem": "NT5.11",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT5.12",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT5.13",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT5.14",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT5.15",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT5.16",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT5.17",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT5.18",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT5.19",
+          "counted": true
+        },
+        {
+          "type": "done",
+          "problem": "NT5.20",
+          "counted": true
+        }
+      ]
+    }
+  ],
+  "plannedShocks": [
+    {
+      "date": "2026-08-19",
+      "chapters": [
+        "NT6",
+        "NT7"
+      ],
+      "count": 40,
+      "note": "Planned release; tentative until course page confirms."
+    },
+    {
+      "date": "2026-08-26",
+      "chapters": [
+        "NT8",
+        "NT9"
+      ],
+      "count": 40,
+      "note": "Planned release; tentative until course page confirms."
+    }
+  ]
+}
